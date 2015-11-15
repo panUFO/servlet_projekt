@@ -8,8 +8,6 @@ import com.example.jdbc.domain.Koncert;
 import com.example.jdbc.domain.Zespol;
 import com.example.jdbc.domain.Zespol_has_koncert;
 
-import javax.persistence.criteria.Order;
-
 public class Storage_service {
 
     public List<Klub> klubs = new ArrayList<Klub>();

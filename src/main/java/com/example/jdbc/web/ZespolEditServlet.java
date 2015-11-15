@@ -20,8 +20,8 @@ public class ZespolEditServlet extends HttpServlet
         response.setContentType("text/html");
 
         int ID = Integer.parseInt(request.getParameter("id"));
-        String Nazwa = request.getParameter("Nazwa");
-        String Kraj = request.getParameter("Kraj");
+        String Nazwa = request.getParameter("nazwa");
+        String Kraj = request.getParameter("kraj");
 
         Storage_service storage_service = (Storage_service) getServletContext().getAttribute("storage");
 
