@@ -48,8 +48,6 @@
                     out.println("<p align='center'><a href='ZespolShowAll.jsp'>Powrót do listy zespolow</a></p>");
                 %>
 
-
-
             </table>
         </div>
     </body>
