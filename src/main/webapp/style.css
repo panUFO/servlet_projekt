@@ -1,4 +1,4 @@
-body, div.navbar{
+body, div.navigationbar{
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,7 @@ body{
     background-color:#404040 ;
 }
 
-div.navbar {
+div.navigationbar {
     background-color: white;
     color: gray;
     display: block;
@@ -16,23 +16,23 @@ div.navbar {
     box-shadow: 0px 0px 5px 0px #383838;
 }
 
-div.navbuttons {
+div.navigationbuttons {
     padding-top: 20px;
     padding-left: 64px;
 }
 
-div.navbutton {
+div.navigationbutton {
     display: inline;
     margin-left: 15px;
 }
 
-div.navbuttonhome {
+div.navigationbuttonhome {
     display: inline;
     margin-left: 8px;
     margin-right: 48px;
 }
 
-img.navbutton, img.navbuttonhome, a, input[type="image"] {
+img.navigationbutton, img.navigationbuttonhome, a, input[type="image"] {
    opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -40,7 +40,7 @@ img.navbutton, img.navbuttonhome, a, input[type="image"] {
    color: white;
 }
 
-img.navbutton:hover, img.navbuttonhome:hover, a:hover, input[type="image"]:hover {
+img.navigationbutton:hover, img.navigationbuttonhome:hover, a:hover, input[type="image"]:hover {
     opacity: 0.5;
 }
 

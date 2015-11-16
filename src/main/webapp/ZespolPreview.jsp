@@ -13,12 +13,12 @@
 
     <body>
         <p><a href="hello">See greetings from servlet</a></p>
-        <div class="navbar">
-            <div class="navbuttons">
-                <div class="navbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navbuttonhome"></a></div>
-                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navbutton"></a></div>
-                <div class="navbutton"><a href="KlubShowAll.jsp"><img src="img/klub.png" class="navbutton"></a></div>
-                <div class="navbutton"><a href="KoncertShowAll.jsp"><img src="img/koncert.png" class="navbutton"></a></div>
+        <div class="navigationbar">
+            <div class="navigationbuttons">
+                <div class="navigationbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navigationbuttonhome"></a></div>
+                <div class="navigationbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navigationbutton"></a></div>
+                <div class="navigationbutton"><a href="KlubShowAll.jsp"><img src="img/klub.png" class="navigationbutton"></a></div>
+                <div class="navigationbutton"><a href="KoncertShowAll.jsp"><img src="img/koncert.png" class="navigationbutton"></a></div>
 
             </div>
         </div>
