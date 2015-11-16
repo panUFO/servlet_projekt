@@ -66,7 +66,7 @@
                     out.println(
                     "<tr><td>" + zespol.getID() + "</td>" +
                     "<td>" + zespol.getNazwa() + "</td>" +
-                    "<td>" + zespol.Kraj() + "</td>" +
+                    "<td>" + zespol.getKraj() + "</td>" +
                     /*"<td><img src=" + "img/preview.png" + " class=\"actionbutton\"></td>" +
                     "<td><img src=" + "img/edit.png" + " class=\"actionbutton\"></td>" +
                     "<td><img src=" + "img/delete.png" + " class=\"actionbutton\"></td>" +*/
