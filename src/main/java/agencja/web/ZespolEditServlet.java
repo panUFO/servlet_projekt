@@ -35,7 +35,6 @@ public class ZespolEditServlet extends HttpServlet
             }
         }
 
-        //Navigate to page with list of all customers
         this.getServletContext().getRequestDispatcher("/ZespolShowAll.jsp").forward(request, response);
     }
 }

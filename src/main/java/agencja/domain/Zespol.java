@@ -2,6 +2,7 @@ package agencja.domain;
 
 public class Zespol {
 
+    private static int ZespolID = 0;
     private int ID;
     private String nazwa;
     private String kraj;
@@ -12,6 +13,7 @@ public class Zespol {
 
     public Zespol(String nazwa, String kraj) {
         super();
+        this.ID = ++ZespolID;
         this.nazwa = nazwa;
         this.kraj = kraj;
     }

@@ -5,7 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Agencja koncertowa</title>
+        <title>agencja koncertowa</title>
     </head>
 
     <body>
@@ -13,8 +13,9 @@
         <div class="navbar">
             <div class="navbuttons">
                 <div class="navbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navbuttonhome"></a></div>
-                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/unit.png" class="navbutton"></a></div>
             </div>
         </div>
+
     </body>
 </html>
