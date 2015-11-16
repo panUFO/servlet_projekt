@@ -13,7 +13,8 @@
         <div class="navbar">
             <div class="navbuttons">
                 <div class="navbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navbuttonhome"></a></div>
-                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/unit.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navbutton"></a></div>
+
             </div>
         </div>
 
