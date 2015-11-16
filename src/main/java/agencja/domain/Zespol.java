@@ -1,8 +1,5 @@
-package com.example.jdbc.domain;
+package agencja.domain;
 
-/**
- * Created by Ufo on 2015-10-29.
- */
 public class Zespol {
 
     private int ID;

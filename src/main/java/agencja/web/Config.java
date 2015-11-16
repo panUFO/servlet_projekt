@@ -1,6 +1,6 @@
-package com.example.jdbc.web;
+package agencja.web;
 
-import com.example.jdbc.service.Storage_service;
+import agencja.service.Storage_service;
 
 import javax.servlet.ServletContextListener;
 import javax.servlet.ServletContextEvent;

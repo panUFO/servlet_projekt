@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="com.example.jdbc.domain.Zespol"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="agencja.domain.Zespol"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
     <head>
@@ -51,7 +51,7 @@
                 </tr>
             </table>
 
-            <jsp:useBean id="storage" class="com.example.jdbc.service.Storage_service" scope="application" />
+            <jsp:useBean id="storage" class="agencja.service.Storage_service" scope="application" />
 
             <table class="presentationtable" align="center">
             <tr>

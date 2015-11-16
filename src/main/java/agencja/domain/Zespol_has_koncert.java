@@ -1,8 +1,5 @@
-package com.example.jdbc.domain;
+package agencja.domain;
 
-/**
- * Created by Ufo on 2015-11-01.
- */
 public class Zespol_has_koncert {
 
     private int ID;

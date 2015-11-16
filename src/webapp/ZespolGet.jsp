@@ -17,8 +17,8 @@
             </div>
         </div>
 
-        <jsp:useBean id="storage" class="com.example.jdbc.service.Storage_service" scope="application" />
-        <jsp:useBean id="zespol" class="com.example.jdbc.domain.Zespol" scope="session" />
+        <jsp:useBean id="storage" class="agencja.service.Storage_service" scope="application" />
+        <jsp:useBean id="zespol" class="agencja.domain.Zespol" scope="session" />
 
         <div class="contentbox">
             <form action="ZespolAdd.jsp">

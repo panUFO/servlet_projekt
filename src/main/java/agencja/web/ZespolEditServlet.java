@@ -1,7 +1,7 @@
-package com.example.jdbc.web;
+package agencja.web;
 
-import com.example.jdbc.domain.Zespol;
-import com.example.jdbc.service.Storage_service;
+import agencja.domain.Zespol;
+import agencja.service.Storage_service;
 
         import javax.servlet.ServletException;
         import javax.servlet.annotation.WebServlet;

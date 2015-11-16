@@ -1,4 +1,4 @@
-package com.example.jdbc.web;
+package agencja.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,12 +1,12 @@
-package com.example.jdbc.service;
+package agencja.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.jdbc.domain.Klub;
-import com.example.jdbc.domain.Koncert;
-import com.example.jdbc.domain.Zespol;
-import com.example.jdbc.domain.Zespol_has_koncert;
+import agencja.domain.Klub;
+import agencja.domain.Koncert;
+import agencja.domain.Zespol;
+import agencja.domain.Zespol_has_koncert;
 
 public class Storage_service {
 

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/domain/Klub.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/domain/Koncert.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/domain/Zespol.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/domain/Zespol_has_koncert.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/service/KlubManager.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/service/KoncertManager.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/jdbc/service/ZespolManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/agencja/domain/Klub.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/agencja/domain/Koncert.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/agencja/domain/Zespol.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/agencja/domain/Zespol_has_koncert.java" charset="UTF-8" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ page import="java.io.PrintWriter" %>
-<%@page import="com.example.jdbc.domain.Zespol"%>
+<%@page import="agencja.domain.Zespol"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -20,8 +20,8 @@
             </div>
         </div>
 
-            <jsp:useBean id="storage" class="com.example.jdbc.service.Storage_service" scope="application" />
-            <jsp:useBean id="zespol" class="com.example.jdbc.domain.Zespol" scope="session" />
+            <jsp:useBean id="storage" class="agencja.service.Storage_service" scope="application" />
+            <jsp:useBean id="zespol" class="agencja.domain.Zespol" scope="session" />
             <jsp:setProperty name="zespol" property="*" />
 
         <div class="contentbox">
