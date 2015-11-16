@@ -42,8 +42,7 @@
                             break;
                         }
                     }
-                    out.println("<form action='zespoleditservlet'><input type='hidden' name='id' value='" + ID + "' /><tr class='tableheader'><td colspan='2'>Zespol ID = " + ID + "</td></tr><tr><td>Nazwa:</td><td><input type='text' name='nazwa' value='" + Nazwa + "' /></td></tr><tr><td>Kraj:</td><td><input type='text' name='kraj' value='" + Kraj + "' /></td></tr><tr><td colspan='2'><input type='submit' value='ZAPISZ'></td></tr></form>");
-                    out.println("<p align='center'><a href='ZespolShowAll.jsp'>Powrot</a></p>");
+                    out.println("<form action='zespoleditservlet'><input type='hidden' name='id' value='" + ID + "' /><tr class='tableheader'><td colspan='2'>Zespol ID=" + ID + "</td></tr><tr><td>Nazwa:</td><td><input type='text' name='nazwa' value='" + Nazwa + "' /></td></tr><tr><td>Kraj:</td><td><input type='text' name='kraj' value='" + Kraj + "' /></td></tr><tr><td colspan='2'><input type='submit' value='ZAPISZ'></td></tr></form>");                    out.println("<p align='center'><a href='ZespolShowAll.jsp'>Powrot</a></p>");
                 %>
 
             </table>

@@ -107,6 +107,7 @@ img.navbutton:hover, img.navbuttonhome:hover, a:hover, input[type="image"]:hover
 
 .presentationtable {
     	margin-left: 35px;
+	margin-bottom: 50px;
         padding:0px;
 	width: 80%;
 	margin-right: auto;
