@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.io.PrintWriter" %>
+<%@page import="agencja.domain.Klub"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Agencja koncertowa</title>
+    </head>
+
+    <body>
+        <p><a href="hello">See greetings from servlet</a></p>
+        <div class="navbar">
+            <div class="navbuttons">
+                <div class="navbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navbuttonhome"></a></div>
+                <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="KlubShowAll.jsp"><img src="img/klub.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="KoncertShowAll.jsp"><img src="img/koncert.png" class="navbutton"></a></div>
+
+            </div>
+        </div>
+
+        <jsp:useBean id="storage" class="agencja.service.Storage_service" scope="application" />
+        <jsp:useBean id="klub" class="agencja.domain.Klub" scope="session" />
+        <jsp:setProperty name="klub" property="*" />
+
+        <div class="contentbox">
+            <table class="operationtable">
+                <%
+                    String ID = request.getParameter("idedit");
+                    String Miasto = "";
+                    String Nazwa = "";
+                    int IloscMiejsc = -1;
+
+                    for (Klub k : storage.getAllKlubs())
+                    {
+                        if (k.getID() == Integer.parseInt(ID))
+                        {
+                            Miasto = z.getMiasto();
+                            Nazwa = z.getNazwa();
+                            IloscMiejsc = z.getIlosc_miejsc();
+                            break;
+                        }
+                    }
+
+                    out.println("<form action='klubeditservlet'><input type='hidden' name='id' value='" + ID + "' /><tr class='tableheader'><td colspan='2'>Zespol ID=" + ID + "</td></tr><tr><td>Miasto:</td><td><input type='text' name='miasto' value='" + Miasto + "' /></td></tr><tr><td>Nazwa:</td><td><input type='text' name='nazwa' value='" + Nazwa + "' /></td></tr><tr><td>Ilosc Miejsc:</td><td><input type='text' name='ilosc_miejsc' value='" + IloscMiejsc + "' /></td></tr><tr><td colspan='2'><input type='submit' value='ZAPISZ'></td></tr></form>");
+                    out.println("<p align='center'><a href='KlubShowAll.jsp'>Powrót do listy klubow</a></p>");
+                %>
+
+            </table>
+        </div>
+    </body>
+</html>
