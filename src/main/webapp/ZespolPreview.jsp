@@ -47,8 +47,8 @@
                         }
                     }
 
-                    out.println("<tr class='tableheader'><td colspan='2'>Zespol ID=" + ID + "</td></tr><tr><td>nazwa:</td><td>" + Nazwa + "</td></tr><tr><td>kraj:</td><td>" + Kraj + "</td></tr>");
-                    out.println("<p align='center'><a href='ZespolShowAll.jsp'>Powrót do listy zespolow</a></p>");
+                    out.println("<tr class='tableheader'><td colspan='2'>Zespol ID = " + ID + "</td></tr><tr><td>Nazwa:</td><td>" + Nazwa + "</td></tr><tr><td>Kraj:</td><td>" + Kraj + "</td></tr>");
+                    out.println("<p align='center'><a href='ZespolShowAll.jsp'>Powrot</a></p>");
                 %>
 
             </table>

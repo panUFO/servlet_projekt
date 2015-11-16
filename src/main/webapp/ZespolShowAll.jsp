@@ -22,33 +22,28 @@
 
 
         <div class="contentbox">
-
-            <!--<a href="ZespolGet.jsp" class="buttonlink"><div class="addbutton">+</div></a>-->
             <table class="operationtable">
                 <tr class="tableheader">
-                    <td colspan="2">Operacje</td>
+                    <td colspan="2">CRUD - podaj id</td>
                 </tr>
                 <tr>
                     <td colspan="2"><a href="ZespolGet.jsp"><div class="opbutton"><img src="img/add.png"></div></a></td>
                 </tr>
                 <tr>
                     <form action="ZespolPreview.jsp">
-                        <td><input type="text" name="idpreview" value="Podaj ID"/></td>
-                        <!--<td><a href="ZespolPreview.jsp"><div class="opbutton"><img src="img/preview.png"></div></a></td>-->
+                        <td><input type="text" name="idpreview" value=""/></td>
                         <td><input type="image" src="img/preview.png" border="0" alt="Submit" onclick="window.location.href='ZespolPreview.jsp'" /></td>
                     </form>
                 </tr>
                 <tr>
                     <form action="ZespolEdit.jsp">
-                        <td><input type='text' name='idedit' value="Podaj ID"/></td>
-                        <!--<td><a href="ZespolGet.jsp"><div class="opbutton"><img src="img/edit.png"></div></a></td>-->
+                        <td><input type='text' name='idedit' value=""/></td>
                         <td><input type="image" src="img/edit.png" border="0" alt="Submit" /></td>
                     </form>
                 </tr>
                 <tr>
                     <form action="zespoldeleteservlet">
-                        <td><input type='text' name='iddelete' value="Podaj ID"/></td>
-                        <!--<td><a href="ZespolGet.jsp"><div class="opbutton"><img src="img/delete.png"></div></a></td>-->
+                        <td><input type='text' name='iddelete' value=""/></td>
                         <td><input type='image' src="img/delete.png" border="0" alt="Submit"/></td>
                     </form>
                 </tr>
@@ -61,7 +56,6 @@
                 <td>ID</td>
                 <td>Nazwa</td>
                 <td>Kraj</td>
-                <!--<td colspan="3">Operacje</td>-->
             </tr>
             <%
                 for (Zespol zespol : storage.getAllZespols())
