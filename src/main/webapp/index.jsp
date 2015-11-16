@@ -14,6 +14,8 @@
             <div class="navbuttons">
                 <div class="navbuttonhome"><a href="index.jsp"><img src="img/home.png" class="navbuttonhome"></a></div>
                 <div class="navbutton"><a href="ZespolShowAll.jsp"><img src="img/zespol.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="KlubShowAll.jsp"><img src="img/klub.png" class="navbutton"></a></div>
+                <div class="navbutton"><a href="KoncertShowAll.jsp"><img src="img/koncert.png" class="navbutton"></a></div>
 
             </div>
         </div>
