@@ -3,13 +3,12 @@ package agencja.web;
 import agencja.domain.Zespol;
 import agencja.service.Storage_service;
 
-        import javax.servlet.ServletException;
-        import javax.servlet.annotation.WebServlet;
-        import javax.servlet.http.HttpServlet;
-        import javax.servlet.http.HttpServletRequest;
-        import javax.servlet.http.HttpServletResponse;
-
-        import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 @WebServlet(urlPatterns = "/zespoleditservlet")
 public class ZespolEditServlet extends HttpServlet
@@ -37,6 +36,6 @@ public class ZespolEditServlet extends HttpServlet
         }
 
         //Navigate to page with list of all customers
-        this.getServletContext().getRequestDispatcher("/showAllZespols.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/ZespolShowAll.jsp").forward(request, response);
     }
 }
