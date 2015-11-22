@@ -30,7 +30,7 @@
 
             <div class="successbox">Dodano zespol do bazy.</div>
 
-            <p align="center">
+            <p align="left">
                 <a href="ZespolShowAll.jsp">Powrót do listy zespolow</a>
             </p>
         </div>

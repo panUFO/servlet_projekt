@@ -2,6 +2,7 @@ package agencja.domain;
 
 public class Klub {
 
+    private static int KlubID = 0;
     private int ID;
     private String miasto;
     private String nazwa;
@@ -12,6 +13,7 @@ public class Klub {
 
     public Klub(String miasto, String nazwa, int ilosc_miejsc) {
         super();
+        this.ID = ++KlubID;
         this.miasto = miasto;
         this.nazwa = nazwa;
         this.ilosc_miejsc = ilosc_miejsc;

@@ -63,7 +63,7 @@ img.navigationbutton:hover, img.navigationbuttonhome:hover, a:hover, input[type=
     margin: 25px;
     width: 1200;
     height: 600;
-    background-color: #580000;
+    background-color: #383838;
     border-color: red;
     overflow: auto;
     font-family: Times New Roman;
@@ -73,14 +73,14 @@ img.navigationbutton:hover, img.navigationbuttonhome:hover, a:hover, input[type=
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    background: #990033 ;
+    background: #990033;
     align: center;
     text-align: center;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 1600px;
+    width: 50%;
 }
 
 .addbutton{

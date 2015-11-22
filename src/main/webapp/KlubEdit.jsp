@@ -38,14 +38,14 @@
                     {
                         if (k.getID() == Integer.parseInt(ID))
                         {
-                            Miasto = z.getMiasto();
-                            Nazwa = z.getNazwa();
-                            IloscMiejsc = z.getIlosc_miejsc();
+                            Miasto = k.getMiasto();
+                            Nazwa = k.getNazwa();
+                            IloscMiejsc = k.getIlosc_miejsc();
                             break;
                         }
                     }
 
-                    out.println("<form action='klubeditservlet'><input type='hidden' name='id' value='" + ID + "' /><tr class='tableheader'><td colspan='2'>Zespol ID=" + ID + "</td></tr><tr><td>Miasto:</td><td><input type='text' name='miasto' value='" + Miasto + "' /></td></tr><tr><td>Nazwa:</td><td><input type='text' name='nazwa' value='" + Nazwa + "' /></td></tr><tr><td>Ilosc Miejsc:</td><td><input type='text' name='ilosc_miejsc' value='" + IloscMiejsc + "' /></td></tr><tr><td colspan='2'><input type='submit' value='ZAPISZ'></td></tr></form>");
+                    out.println("<form action='klubeditservlet'><input type='hidden' name='id' value='" + ID + "' /><tr class='tableheader'><td colspan='2'>Klub ID=" + ID + "</td></tr><tr><td>Miasto:</td><td><input type='text' name='miasto' value='" + Miasto + "' /></td></tr><tr><td>Nazwa:</td><td><input type='text' name='nazwa' value='" + Nazwa + "' /></td></tr><tr><td>Ilosc Miejsc:</td><td><input type='text' name='ilosc_miejsc' value='" + IloscMiejsc + "' /></td></tr><tr><td colspan='2'><input type='submit' value='ZAPISZ'></td></tr></form>");
                     out.println("<p align='center'><a href='KlubShowAll.jsp'>Powrót do listy klubow</a></p>");
                 %>
 

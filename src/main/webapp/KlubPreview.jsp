@@ -52,7 +52,7 @@
                     }
 
 
-                    out.println("<tr class='tableheader'><td colspan='2'>Klub ID=" + ID + "</td></tr><tr><td>Miasto:</td><td>" + Miasto + "</td></tr>");<tr><td>Nazwa:</td><td>" + Nazwa + "</td></tr><tr><td>Ilosc miejsc:</td><td>" + IloscMiejsc + "</td></tr>");
+                    out.println("<tr class='tableheader'><td colspan='2'>Klub ID=" + ID + "</td></tr><tr><td>Miasto:</td><td>" + Miasto + "</td></tr><tr><td>Nazwa:</td><td>" + Nazwa + "</td></tr><tr><td>Ilosc miejsc:</td><td>" + IloscMiejsc + "</td></tr>");
                     out.println("<p align='center'><a href='KlubShowAll.jsp'>Powrót do listy klubow</a></p>");
                 %>
 

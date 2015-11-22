@@ -31,5 +31,5 @@ public class KoncertAddServlet extends HttpServlet
         storage.add(newKoncert);
 
         this.getServletContext().getRequestDispatcher("/KoncertShowAll.jsp").forward(request, response);
-    }
+        }
 }

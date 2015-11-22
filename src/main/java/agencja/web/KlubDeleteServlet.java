@@ -22,9 +22,9 @@ public class KlubDeleteServlet extends HttpServlet
 
         Storage_service storage_service = (Storage_service) getServletContext().getAttribute("storage");
 
-        for (int i=0; i<storage_service.getAllZespols().size(); i++)
+        for (int i=0; i<storage_service.getAllKlubs().size(); i++)
         {
-            if (storage_service.getAllZespols().get(i).getID() == ID)
+            if (storage_service.getAllKlubs().get(i).getID() == ID)
             {
                 index = i;
                 break;

@@ -30,7 +30,7 @@
 
             <div class="successbox">Dodano klub do bazy.</div>
 
-            <p align="center">
+            <p align="left">
                 <a href="KlubShowAll.jsp">Powrót do listy klubow</a>
             </p>
         </div>

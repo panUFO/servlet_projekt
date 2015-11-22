@@ -44,8 +44,6 @@ public class Storage_service {
     public List<Zespol> getAllZespols(){
         return zespols;
     }
-
-
     public List<Klub> getAllKlubs(){
         return klubs;
     }
